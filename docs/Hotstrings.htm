@@ -37,7 +37,7 @@ MsgBox You typed "btw".
 return
 
 :*:]d::  <em>; This hotstring replaces "]d" with the current date and time via the commands below.</em>
-<a href="lib/FormatTime.htm">FormatTime</a>, CurrentDateTime,, M/d/yyyy h:mm tt  <em>; It will look like 9/1/2005 3:53 PM</em>
+<a href="lib/FormatTime.htm">FormatTime</a>, CurrentDateTime, M/d/yyyy h:mm tt  <em>; It will look like 9/1/2005 3:53 PM</em>
 SendInput %CurrentDateTime%
 return</pre>
 <p>Even though the two examples above are not auto-replace hotstrings, the abbreviation you type is erased by default. This is done via automatic backspacing, which can be disabled via the <a href="#b0">b0 option</a>.</p>
